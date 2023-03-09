@@ -5,6 +5,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    overflow: none;
     font-family: 'roboto', sans-serif;
 }
 .header {
@@ -59,12 +60,11 @@
     display: flex;
     flex-wrap: wrap;
     width: 51.4vw;
-    border: red solid 1px;
+    margin: 9vh 0 9vh 0;
 }
 .container__item {
-    border: blue solid 1px;
     width: 17vw;
-    height: 35vh;
+    /* height: 35vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,4 +92,71 @@
 .container__item--img2 {
     background-image: url(../images/cevref.jpg);
     background-size: cover;
+}
+.item__text {
+    text-align: center;
+    padding: 0 1vw 0 1vw;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 3vh;
+    margin-top: 3vh;
+}
+.container__item--title {
+    display: flex;
+    align-items: flex-start;
+}
+.container__item--title .argumentlist__title,
+.container__item--title .fa-arrow-right-long {
+    margin-left: 1vw;
+}
+.fa-arrow-right-long {
+    margin-top: 5vh;
+}
+.bannerCat {
+    height: 70vh;
+    background-image: url(../images/20180328203314-3fb7e470.jpg);
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bannerCat__title {
+    font-family: 'Libre Baskerville', serif;
+    margin: 5vh 0 2vh 0;
+    font-size: 40px;
+    font-weight: 100;
+}
+.bannerCat .bannerCat__title,
+.bannerCat .bannerCat__texte {
+    margin-right: 50vw;
+}
+.bannerCat__text {
+    text-transform: uppercase;
+    letter-spacing: 0.70vw;
+    font-size: 18px;
+}
+.argumentRescue {
+    background-color: #e5e5e5;
+    padding-top: 5vh;
+    height: 130vh;
+}
+.argumentRescue__container {
+    display: flex;
+}
+.argumentRescue__container--top {
+    border: red solid 1px;
+}
+.argumentRescue__containerText {
+    width: 33.33vw;
+}
+.argumentRescue__containerImg {
+    width: 33.33vw;
+    object-fit: cover;
+}
+.argumentRescue__containerImg img {
+    width: 100%;
+}
+.argumentRescue__containerSocialMedia {
+    width: 33.33;
 }
