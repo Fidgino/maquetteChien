@@ -8,6 +8,9 @@
     overflow: none;
     font-family: 'roboto', sans-serif;
 }
+.fa-brands {
+    color: black;
+}
 .header {
     background-image: url(../images/imageBackground.jpg);
     background-size: cover;
@@ -143,20 +146,117 @@
 }
 .argumentRescue__container {
     display: flex;
-}
-.argumentRescue__container--top {
-    border: red solid 1px;
+    margin-bottom: 6vh;
 }
 .argumentRescue__containerText {
     width: 33.33vw;
 }
+.argumentRescue__containerText--1 {
+    display: flex;
+    justify-content: flex-end;
+}
 .argumentRescue__containerImg {
     width: 33.33vw;
-    object-fit: cover;
-}
-.argumentRescue__containerImg img {
-    width: 100%;
+    height: 60vh;
+    background-size: cover;
 }
 .argumentRescue__containerSocialMedia {
-    width: 33.33;
+    width: 33.33vw;
+}
+.argumentRescue__containerImg--1 {
+    background-image: url(../images/femmeChien.jpg);
+}
+.argumentRescue__containerImg--2 {
+    background-image: url(../images/dqfsdf.jpg);
+}
+.argumentRescue__containerText--inner {
+    width: 13.8vw;
+    margin: 2vh 1vw 0 0;
+}
+.argumentRescue__title {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    margin-bottom: 2vh;
+    font-size: 18px;
+    font-weight: 100;
+}
+.argumentRescue__subTitle {
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 2vh;
+    font-size: 28px;
+}
+.argumentRescue__containerTop--spanBold {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 900;
+}
+.argumentRescue__text {
+    line-height: 2.6vh;
+    margin-bottom: 4vh;
+}
+.argumentRescue__containerText__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.argumentRescue__subTitle--bottom {
+    text-align: right;
+    margin: 2vh 1.5vw 4vh 0;
+}
+.argumentRescue__title--bottom {
+    margin: 0 1.5vw 0 0;
+}
+.argumentRescue__containerSocialMedia {
+    display: flex;
+    align-items: flex-end;
+}
+.argumentRescue__containerInner--socialMedia {
+    font-size: 25px;
+}
+.argumentRescue__containerSocialMedia--inner {
+    margin-left: 1.5vw;
+    width: 23vw;
+}
+.argumentRescue__containerInner--socialMedia {
+    margin-bottom: 7vh;
+}
+.socialMedia__icon {
+    margin-right: 1.5vw;
+}
+.dogTraining {
+    background-image: url(../images/images.jpg);
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dogTraining__container {
+    width: 27vw;
+    margin: 0 40vw 0vh 0;
+}
+.dogTraining__subTitle {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 1vh 0 3vh 0;
+}
+.dogTraining__title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 28px;
+}
+.dogTraining__button {
+    width: 13vw;
+    height: 4.5vh;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-top: 3vh;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.3vw;
 }
