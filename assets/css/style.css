@@ -13,6 +13,7 @@
 }
 .header {
     background-image: url(../images/imageBackground.jpg);
+    background-position: center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -64,6 +65,7 @@
     flex-wrap: wrap;
     width: 51.4vw;
     margin: 9vh 0 9vh 0;
+    justify-content: center;
 }
 .container__item {
     width: 17vw;
@@ -122,7 +124,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    background-position: right;
 }
 .bannerCat__title {
     font-family: 'Libre Baskerville', serif;
@@ -130,9 +132,8 @@
     font-size: 40px;
     font-weight: 100;
 }
-.bannerCat .bannerCat__title,
-.bannerCat .bannerCat__texte {
-    margin-right: 50vw;
+.bannerCat__title, .bannerCat__text {
+    margin-left: 10vw;
 }
 .bannerCat__text {
     text-transform: uppercase;
@@ -165,9 +166,11 @@
 }
 .argumentRescue__containerImg--1 {
     background-image: url(../images/femmeChien.jpg);
+    background-position: center;
 }
 .argumentRescue__containerImg--2 {
     background-image: url(../images/dqfsdf.jpg);
+    background-position: center;
 }
 .argumentRescue__containerText--inner {
     width: 13.8vw;
@@ -259,4 +262,117 @@
     font-size: 18px;
     font-weight: 900;
     letter-spacing: 0.3vw;
+}
+.citation {
+    height: 30vh;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+.citation__text {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+.citation__text--bold {
+    font-family: 'Libre Baskerville', serif;
+}
+.container__socialMedia {
+    display: flex;
+    gap: 1vw;
+}
+.citation__socialMedia--icon {
+    color: white;
+}
+.contact {
+    height: 40vh;
+    background-image: url(../images/qebt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 20vw;
+}
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 24vw;
+}
+.contact__title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 28px;
+}
+.contact__text {
+    margin: 1.5vh 0 1.5vh 0;
+    text-align: right;
+}
+.contact__containerInput {
+    display: flex;
+    height: 4.5vh;
+}
+.contact__input {
+    width: 16vw;
+    border-radius: 0px;
+    border: 1px #b2b4b3 solid;
+    padding-left: 0.5vw;
+}
+.contact__button {
+    width: 5.5vw;
+    color: white;
+    border: none;
+    background-color: black;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1185px) {
+    .navbar {
+        gap: 60vw;
+    }
+    .argumentlist__container {
+        width: 98vw;
+    }
+    .container__item {
+        width: 32vw;
+        height: 40vh;
+    }
+    .argumentRescue__containerImg {
+        width: 50.33vw;
+        height: 50vh;
+    }
+    .argumentRescue__containerText--inner {
+        width: 21.8vw;
+    }
+    .dogTraining__container {
+        width: 40vw;
+    }
+    .dogTraining__button {
+        width: 20vw;
+        font-size: 15px;
+    }
+    .container__socialMedia {
+        gap: 2vw;
+    }
+    .contact {
+        padding-right: 10vw;
+    }
+    .contact__container {
+        width: 45vw;
+    }
+    .contact__input {
+        width: 24vw;
+    }
+    .contact__button {
+        width: 13vw;
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1185px) {
+    
 }
